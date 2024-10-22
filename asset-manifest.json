@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.7e473368.css",
+    "main.js": "/Portfolio/static/js/main.741ecc47.js",
+    "static/js/415.4d6acbeb.chunk.js": "/Portfolio/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/mangophone.png": "/Portfolio/static/media/mangophone.89a1cae241310aec5252.png",
+    "static/media/mywineshop.png": "/Portfolio/static/media/mywineshop.9966c837485bb3378cf0.png",
+    "static/media/home-main.svg": "/Portfolio/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
+    "static/media/about.png": "/Portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/CV_LinkedIn_JuanGarcia.pdf": "/Portfolio/static/media/CV_LinkedIn_JuanGarcia.c9553fd26bd07ee89e29.pdf",
+    "static/media/vitaSnap.jpeg": "/Portfolio/static/media/vitaSnap.784d916ac40e16e37ac1.jpeg",
+    "static/media/devops.png": "/Portfolio/static/media/devops.1dea84ca0be27256357c.png",
+    "static/media/home-bg.jpg": "/Portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/logo.png": "/Portfolio/static/media/logo.4ce88d8d8dd73dfe7db4.png",
+    "static/media/avatar.svg": "/Portfolio/static/media/avatar.7f806e40d46fc76fbc3c4a3d71349951.svg",
+    "static/media/eCommerce.jpeg": "/Portfolio/static/media/eCommerce.9a9eb47a67bd0b971c93.jpeg",
+    "static/media/pre.svg": "/Portfolio/static/media/pre.4410c5baaa673cc131da.svg",
+    "index.html": "/Portfolio/index.html",
+    "main.7e473368.css.map": "/Portfolio/static/css/main.7e473368.css.map",
+    "main.741ecc47.js.map": "/Portfolio/static/js/main.741ecc47.js.map",
+    "415.4d6acbeb.chunk.js.map": "/Portfolio/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e473368.css",
+    "static/js/main.741ecc47.js"
+  ]
+}
