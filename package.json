@@ -30,7 +30,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -r https://$DEPLOY_GHPAGES@github.com/juuangarciac/Portfolio"
+    "deploy": "gh-pages -d build -r https://$GH_PAGES@github.com/juuangarciac/Portfolio"
   },
   "eslintConfig": {
     "extends": [
