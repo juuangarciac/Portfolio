@@ -2,12 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import eCommerce from "../../Assets/Projects/eCommerce.jpeg"; // Ensure you have an image for this project
+import myWineShop from "../../Assets/Projects/mywineshop.png"; // Ensure you have an image for this project
+import mangoPhone from "../../Assets/Projects/mangophone.png"; // Ensure you have an image for this project
+import vitaSnap from "../../Assets/Projects/vitaSnap.jpeg"; // Ensure you have an image for this project
+import devOpsPractices from "../../Assets/Projects/devops.png"; // Ensure you have an image for this project
 
 function Projects() {
   return (
@@ -21,70 +20,60 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={myWineShop}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="MyWineShop"
+              description="A web application developed with Laravel as part of my Internet and Electronic Business course. This e-commerce platform introduced me to web development, the Model-View-Controller architecture, and user interface development using Bootstrap and HTML."
+              ghLink="https://github.com/juuangarciac/es.uca.mywineshop.laravel" // Replace with your GitHub link
+              // demoLink="link_to_demo" // Include a demo link if applicable
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={mangoPhone}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="MangoPhone"
+              description="A web application developed with Vaadin and Spring Boot, deployed on AWS. This platform includes a front-office for customers and a back-office for employees, giving me experience in teamwork and Java frameworks."
+              ghLink="https://github.com/Manuel-Coca/iw2023-2024-MangoPhone" // Replace with your GitHub link
+              // demoLink="link_to_demo" // Include a demo link if applicable
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={devOpsPractices}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="DevOps Practices"
+              description="This repository contains practices carried out in the System Virtualization course, exploring deployment tools like Azure Pipelines, GitLab, Terraform, Jenkins, and Docker. Gained understanding of containerization and CI/CD practices."
+              ghLink="https://github.com/juuangarciac/es.uca.virtualizacionsistemas.devops" // Replace with your GitHub link
+              // demoLink="link_to_demo" // Include a demo link if applicable
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={eCommerce}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="E-commerce Terminal Application"
+              description="A terminal application developed in C++. This application was part of my learning in Object-Oriented Programming, introducing concepts such as Classes, Objects, Inheritance, and Polymorphism."
+              ghLink="https://github.com/juuangarciac/es.uca.e-shop.cpp" // Replace with your GitHub link
+              // demoLink="link_to_demo" // Include a demo link if applicable
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={vitaSnap}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="VitaSnap"
+              description="Developed using the SpringBoot framework and a React application. Focused on building a private API with secure access using API keys and SpringSecurity, exploring the growing use of APIs in web development."
+              ghLink="https://github.com/juuangarciac/es.juuangarciac.vitasnap.java" // Replace with your GitHub link
+              // demoLink="link_to_demo" // Include a demo link if applicable
             />
           </Col>
         </Row>

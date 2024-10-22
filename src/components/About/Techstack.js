@@ -5,10 +5,18 @@ import {
   DiJavascript1,
   DiReact,
   DiNodejs,
-  DiMongodb,
+  DiMysql,
   DiPython,
   DiGit,
+  DiGithub,
   DiJava,
+  DiPhp,
+  DiHtml5,
+  DiDocker,
+  DiCisco,
+  DiLinux,
+  DiJenkins,
+  DiAws
 } from "react-icons/di";
 import {
   SiRedis,
@@ -29,40 +37,46 @@ function Techstack() {
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <DiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
+        <DiGithub />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiPhp />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiHtml5 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiCisco />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiLinux />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJenkins />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiAws />
       </Col>
     </Row>
   );

@@ -24,32 +24,30 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> C, C++ and Java</b>
               </i>
               <br />
-              <br />
-              My field of Interest's are building new &nbsp;
+              <br /> 
+              My main interest lies in, &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
+                <b className="purple">backend development for web systems </b> with a strong focus on
                 also in areas related to{" "}
                 <b className="purple">
-                  Blockchain.
+                cybersecurity and DevOps
                 </b>
               </i>
+              , where I enjoy exploring innovative solutions and best practices.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              Whenever possible, I seek opportunities to apply my skills and knowledge  
+              in <b className="purple">real-world projects</b>  My goal is to contribute meaningfully to
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  a dynamic team or organization,
                 </b>
               </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              &nbsp; helping them grow and succeed by leveraging my expertise in technology and development.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -67,7 +65,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/juuangarciac"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,32 +75,12 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/juan-garcia-candon-16401a250/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
                 </a>
               </li>
             </ul>
